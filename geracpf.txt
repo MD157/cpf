@@ -1,0 +1,12 @@
+import random
+print ('MD DA XEREQUINHA ROSA')
+cpf = random.randrange(1, 99999999999)
+
+
+bi = str(input('Presione {s} para ter seu cpf: '))
+
+
+if bi == 's':
+    nume2 = random.randrange(1, 9999999999)
+    bin = int(input('Escolha de 1 a 10 : '))
+    print('CPF:', cpf)
